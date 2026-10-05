@@ -1,0 +1,28 @@
+# Only explicitly selected project files can enter the public repository.
+/*
+!/.gitignore
+!/.github/
+!/.github/**
+!/src/
+!/src/**
+!/tests/
+!/tests/**
+!/scripts/
+!/scripts/**
+!/README.md
+!/CONTRIBUTING.md
+!/RELEASE-CHECKLIST.md
+!/LICENSE
+!/package.json
+!/package-lock.json
+!/tsconfig.json
+!/rollup.config.mjs
+
+# Never track credentials, local state or generated artifacts, even in allowed directories.
+**/.env*
+**/*.pem
+**/*.key
+**/cookies.txt
+**/state.json
+**/*.log
+**/__pycache__/
