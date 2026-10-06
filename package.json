@@ -13,7 +13,7 @@
     "check": "npm run check:public && npm run typecheck && npm run build && npm test"
   },
   "devDependencies": {
-    "@babel/core": "^7.29.7",
+    "@babel/core": "^8.0.6",
     "@babel/preset-env": "^7.29.7",
     "@rollup/plugin-babel": "^7.1.0",
     "@rollup/plugin-typescript": "^12.3.0",
